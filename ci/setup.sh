@@ -3,7 +3,7 @@ set -e
 set -x
 export ROOT=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 export ROOT_PROJECT=$ROOT
-export RISCV=$ROOT_PROJECT/tools/riscv-toolchain/
+export RISCV=$ROOT_PROJECT/riscv-tools/
 
 export VERILATOR_INSTALL_DIR="$ROOT_PROJECT"/tools/verilator/
 
